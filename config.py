@@ -17,7 +17,7 @@ TIMEOUT_SECONDS = 5
 # Fan: temperature >= threshold -> fan apne aap ON
 FAN_TEMP_THRESHOLD = 20.0   # degree Celsius
 FAN_HYSTERESIS = 0.5        # threshold - 0.5 se neeche jaaye tab hi OFF (bar bar on/off na ho)
-FAN_NEEDS_OCCUPANCY = False # True = fan sirf tab chale jab room me koi ho
+FAN_NEEDS_OCCUPANCY = True  # True = fan sirf tab chale jab room me koi ho
 
 # Appliance ratings (Watt) -> energy aur bill calculate karne ke liye
 DEVICE_WATTS = {
